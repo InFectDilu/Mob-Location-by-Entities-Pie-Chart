@@ -1,5 +1,5 @@
 # Mob-Location-by-Entities-Pie-Chart
-Suppose the player's coordinates when the creature first appears on the pie chart are $(x_1,z_1)$, the render distance is $R_1$; the player's coordinates when the creature appears the second time are $(x_2,z_2)$, the render distance is $R_2$, and the coordinates of the creature's location are $(x,z)$. Then $(x,z)$ can be calculated as follows:
+Suppose the player's coordinates when the mob first appears on the pie chart are $(x_1,z_1)$, the render distance is $R_1$; the player's coordinates when the mob appears the second time are $(x_2,z_2)$, the render distance is $R_2$, and the coordinates of the mob's location are $(x,z)$. Then $(x,z)$ can be calculated as follows:
 
 $$ r_1=16R_1 \quad r_2=16R_2 $$
 
@@ -25,7 +25,7 @@ $$ h=\sqrt{r^2-(\frac{d}{2})^2} $$
 
 $$ x=\frac{x_1+x_2}{2}\pm\frac{h\Delta z}{d}\quad z=\frac{z_1+z_2}{2}\mp\frac{h\Delta x}{d} $$
 
-If $d\ll r$, i.e., the distance between the two measurements is much smaller than the distance between you and the creature, keeping up to the second order, we can take the following approximation:
+If $d\ll r$, i.e., the distance between the two measurements is much smaller than the distance between you and the mob, keeping up to the second order, we can take the following approximation:
 
 $$ x\approx\frac{x_1+x_2}{2}\pm(\frac{r}{d}-\frac{d}{8r})\Delta z\quad z\approx\frac{z_1+z_2}{2}\mp(\frac{r}{d}-\frac{d}{8r})\Delta x $$
 
