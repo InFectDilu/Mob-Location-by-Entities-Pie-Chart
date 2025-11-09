@@ -1,4 +1,4 @@
-# Mob-Location-by-Entities-Pie-Chart
+# Mob Location by Entities Pie Chart
 Suppose the player's coordinates when the mob first appears on the pie chart are $(x_1,z_1)$, the render distance is $R_1$; the player's coordinates when the mob appears the second time are $(x_2,z_2)$, the render distance is $R_2$, and the coordinates of the mob's location are $(x,z)$. Then $(x,z)$ can be calculated as follows:
 
 $$ r_1=16R_1 \quad r_2=16R_2 $$
